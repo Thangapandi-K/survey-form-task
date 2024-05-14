@@ -1,0 +1,39 @@
+*:not(table, td, tr, th) {
+    margin: 7px;
+}
+.hd {
+    font-weight: 750;
+}
+.hd::after {
+    content: " *";
+    color: red;
+}
+.star {
+    color: orange;
+}
+tr:nth-child(even) {
+    background-color: rgb(209, 204, 204);
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+table {
+    width: 50%;
+    border-spacing: 0px;
+}
+input[type=email] {
+    width: 48%;
+    margin: 1%;
+}
+input[type=text] {
+    width: 23%;
+    margin: 1%;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+}
+
+
